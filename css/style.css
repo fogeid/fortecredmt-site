@@ -87,24 +87,24 @@ body {
 }
 
 /* SIMULATION */
-.simulation__content .simulation__description p {
+.contact__content .contact__description p {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: right;
   line-height: 1.2;
 }
 
-.simulation__content .simulation__description {
+.contact__content .contact__description {
   padding-top: 80px;
   text-align: right;
 }
 
-.simulation__content .simulation__description span {
+.contact__content .contact__description span {
   font-size: 3.5rem;
   font-weight: bold;
 }
 
-.simulation__content .simulation__img img {
+.contact__content .contact__img img {
   width: 100%;
 }
 
@@ -132,4 +132,16 @@ body {
 
 .partners__content .partners__wrapper ul li img {
   width: 90%;
+}
+
+/* LOCALIZATION */
+.localization__content {
+  padding-top: 50px;
+}
+
+.localization__content .localization__wrapper h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 300px;
 }
