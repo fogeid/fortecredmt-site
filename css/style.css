@@ -107,3 +107,29 @@ body {
 .simulation__content .simulation__img img {
   width: 100%;
 }
+
+/* PARTNERS */
+.partners__content {
+  padding-top: 100px;
+}
+
+.partners__content .partners__wrapper h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.partners__content .partners__wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__content .partners__wrapper ul li {
+  margin-bottom: 20px;
+}
+
+.partners__content .partners__wrapper ul li img {
+  width: 90%;
+}
