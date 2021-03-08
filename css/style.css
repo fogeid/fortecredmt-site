@@ -50,7 +50,17 @@ body {
 }
 
 .intro__content .intro__description h1 {
-  width: 800px;
+  font-size: 1.5rem;
+  width: 620px;
+}
+
+.intro__content .intro__description h1 span {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.intro__content .intro__description p {
+  font-size: 1.5rem;
 }
 
 .intro__content .intro__img img {
@@ -77,3 +87,23 @@ body {
 }
 
 /* SIMULATION */
+.simulation__content .simulation__description p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.simulation__content .simulation__description {
+  padding-top: 80px;
+  text-align: right;
+}
+
+.simulation__content .simulation__description span {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.simulation__content .simulation__img img {
+  width: 100%;
+}
