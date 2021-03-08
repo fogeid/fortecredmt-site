@@ -10,6 +10,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  letter-spacing: 3px;
   padding: 5px 15px;
   color: #ffffff;
   background-color: #ff0000;
@@ -22,6 +23,7 @@ body {
   background-color: #5f0000;
 }
 
+/* HEADER */
 .header__content {
   background: url("../assets/top.png") no-repeat center;
   height: 353px;
@@ -54,3 +56,24 @@ body {
 .intro__content .intro__img img {
   width: 100%;
 }
+
+/* SERVICE */
+.service__content {
+  position: relative;
+  top: -100px;
+}
+
+.service__content .service__description h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.service__content .service__description ul li {
+  margin: 15px 0;
+}
+
+.service__content .service__img img {
+  width: 100%;
+}
+
+/* SIMULATION */
